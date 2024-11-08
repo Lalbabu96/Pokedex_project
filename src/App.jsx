@@ -1,14 +1,11 @@
 
 import './App.css'
-import Pokedex from './components/Pokedex/Pokedex'
+import CustomRouters from './Routes/CustomRoutes'
 
 function App() {
-  
-
   return (
-    <>
-      <Pokedex/>
-     
+    <>       
+       <CustomRouters/>    
     </>
   )
 }
